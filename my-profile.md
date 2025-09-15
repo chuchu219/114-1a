@@ -14,6 +14,7 @@
 [https://chatgpt.com/]
 ![photo](58142.jpg)
 
+
 >我是人生當中的廢棒，我又廢又棒
 >>讚讚讚
 
@@ -22,3 +23,14 @@
 |:--:|:----------------:|
 | 高中 | 新竹高商資料處理科 |
 | 大學 | 高科資訊管理系 |
+
+```python
+ reactivity_lines = []
+    if "reactivity" in row:
+        r = row["reactivity"]
+        if "eye_opening" in r:
+            reactivity_lines.append(f"- Reactivity (eye opening): {r['eye_opening']}")
+        if "hyperventilation" in r:
+            reactivity_lines.append(f"- Reactivity (hyperventilation): {r['hyperventilation']}")
+        if "photic_stimulation" in r:
+            reactivity_lines.append(f"- Reactivity (photic stimulation): {r['photic_stimulation']}")
